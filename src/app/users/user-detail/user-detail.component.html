@@ -1,0 +1,40 @@
+<h2>USERS</h2>
+<div *ngIf="user$ | async as user">
+  <h3>"{{ user.name }}"</h3>
+  <div>
+    <label>Id: </label>{{ user.id }}</div>
+  <div>
+    <label>Name: {{ user.name }}</label>
+    <!--<input [(ngModel)]="user.name" placeholder="name"/>-->
+  </div>
+  <div>
+  <label>Email: </label>{{ user.email }}</div>
+
+  <div>
+  <label>Age: </label>{{ user.age }}</div>
+  <p>
+  <div>
+  <label>Plan: </label></div>
+
+  <div class="detail-margin5">
+  <label>Status: </label>{{ user.plan.status }}</div>
+
+  <div class="detail-margin5">
+  <label>Description: </label>{{ user.plan.description }}</div>
+
+  <div class="detail-margin5">
+  <label>Features included: </label></div>
+
+      <div *ngIf="user.plan.features.conferenceCalling" class="detail-margin10">
+        <label>conference calling </label></div>
+
+      <div *ngIf="user.plan.features.callWaiting" class="detail-margin10">
+        <label>call waiting </label></div>
+
+      <div *ngIf="user.plan.features.voicemail" class="detail-margin10">
+        <label>voicemail</label></div>
+      <div>
+  <p>
+    <button (click)="gotoUsers(user)">Back</button>
+  </p>
+</div>

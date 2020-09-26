@@ -1,0 +1,155 @@
+{
+	"users": [
+		{
+			"id": "a9f08ef3-345d-4a59-93a7-849ff39da26d",
+			"name": "Jane Smith",
+			"email": "main.jane@gmail.com",
+			"age": 27,
+			"plan": {
+				"type": "basic",
+				"status": "active",
+				"description": "The Basics Package",
+				"features": {
+					"conferenceCalling": true,
+					"callWaiting": false,
+					"voicemail": true
+				}
+			}
+		},{
+			"id": "ae531b31-0994-40b5-9c8b-16facd08e8f3",
+			"name": "Tom Brady",
+			"email": "tom.brady@gmail.com",
+			"age": 54,
+			"plan": {
+				"type" :"premium",
+				"status": "active",
+				"description": "The Premium Package",
+				"features": {
+					"conferenceCalling": true,
+					"callWaiting": true,
+					"voicemail": true
+				}
+			}
+		},{
+			"id": "e0055ee5-671f-4c3d-b176-08db819b6e9b",
+			"name": "Wendy Williams",
+			"email": "will.i.am@hotmail.com",
+			"age": 26,
+			"plan": {
+				"type": "basic",
+				"status": "inactive",
+				"description": "The Basics Package",
+				"features": {
+					"conferenceCalling": false,
+					"callWaiting": false,
+					"voicemail": true
+				}
+			}
+		},{
+			"id": "43d3c65b-6ea3-46c0-b057-bb218d3b8465",
+			"name": "Justin Trudeau",
+			"email": "justme22@fmail.com",
+			"age": 19,
+			"plan": {
+				"type": "lite",
+				"status": "active",
+				"description": "The Lite Package",
+				"features": {
+					"conferenceCalling": false,
+					"callWaiting": false,
+					"voicemail": true
+				}
+			}
+		},{
+			"id": "27188a2e-3650-4bbf-bc1c-4383d017415b",
+			"name": "Gordan Long",
+			"email": "longtime@mail.com",
+			"age": 44,
+			"plan": {
+				"type": "lite",
+				"status": "active",
+				"description": "The Lite Package",
+				"features": {
+					"conferenceCalling": true,
+					"callWaiting": false,
+					"voicemail": true
+				}
+			}
+		},{
+			"id": "45178b26-c978-494d-96d1-7c73b4888b4d",
+			"name": "Casey Daniels",
+			"email": "thecase48@test.com",
+			"age": 67,
+			"plan": {
+				"type": "basic",
+				"status": "active",
+				"description": "The Lite Package",
+				"features": {
+					"conferenceCalling": false,
+					"callWaiting": false,
+					"voicemail": true
+				}
+			}
+		},{
+			"id": "5442b0b2-d7c8-4425-81e0-9df2cc96898b",
+			"name": "Boyega Bordeau",
+			"email": "boyega.the.man@dude.com",
+			"age": 41,
+			"plan": {
+				"type": "ultimate",
+				"status": "active",
+				"description": "The Ultimate Package",
+				"features": {
+					"conferenceCalling": true,
+					"callWaiting": true,
+					"voicemail": true
+				}
+			}
+		},{
+			"id": "1d0a7368-04c3-4726-9f74-3910b7607e25",
+			"name": "Mitov Jojo",
+			"email": "jojo.cici@watts.com",
+			"age": 33,
+			"plan": {
+				"type": "lite",
+				"status": "active",
+				"description": "The Lite Package",
+				"features": {
+					"conferenceCalling": true,
+					"callWaiting": false,
+					"voicemail": true
+				}
+			}
+		},{
+			"id": "b243cf01-00d9-4992-911d-ae4a3fafb18c",
+			"name": "Sam Best",
+			"email": "sam.best@nomail.com",
+			"age": 24,
+			"plan": {
+				"type": "premium",
+				"status": "inactive",
+				"description": "The Premium Package",
+				"features": {
+					"conferenceCalling": true,
+					"callWaiting": false,
+					"voicemail": true
+				}
+			}
+		},{
+			"id": "a9f08ef3-345d-4a59-93a7-849ff39da26d",
+			"name": "Krystal Johnson",
+			"email": "kystal.j@email.com",
+			"age": 51,
+			"plan": {
+				"type": "basic",
+				"status": "active",
+				"description": "The Basics Package",
+				"features": {
+					"conferenceCalling": true,
+					"callWaiting": false,
+					"voicemail": true
+				}
+			}
+	}]
+
+}
